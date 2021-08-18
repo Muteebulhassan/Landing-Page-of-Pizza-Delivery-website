@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA</title>
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">Pizza<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id= "banner">
+        <div class="content">
+        <h2>PIZZA STOP</h2>
+        <p class="intro">Treat yourself to the best pizza, sides and desserts from your nearest Pizza. Get delivery or takeaway today.Order Pizza Online in Karachi Today! Ordering Pizza from restaurants near you couldn't be easier.Check the updated menu of Pizza stop - and get latest Price and Deals. Pizza stop</p>
+        <a href="#" class="btn">Order Now</a>
+        </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="title">
+                <h2 class="titleText">Our Menu</h2> 
+            </div>
+            <div class="card">
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="menu.jpeg">
+                    </div>
+                <div class="text">
+                    <h3>Deal 3<br>Rs:999/</h3>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+               </div> 
+             </div>
+             <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="menu.jpeg">
+                    </div>
+                <div class="text">
+                    <h3>Deal 3</h3>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+               </div> 
+             </div>
+             <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="menu.jpeg">
+                    </div>
+                <div class="text">
+                    <h3>Deal 3</h3>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+               </div> 
+             </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="menu.jpeg">
+                        </div>
+                    <div class="text">
+                        <h3>Deal 3</h3>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                   </div> 
+                 </div>
+                 <div class="content">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="menu.jpeg">
+                        </div>
+                    <div class="text">
+                        <h3>Deal 3</h3>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                   </div> 
+                 </div>
+                 <div class="content">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="menu.jpeg">
+                        </div>
+                    <div class="text">
+                        <h3>Deal 3</h3>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                   </div> 
+                 </div>
+                </div>
+                
+
+         
+</section>
+
+<section class="about" id="about">
+   
+    <div class="row">
+        <div class="col50">
+            <h2 class="titleText">About us</h2>
+            <br>
+            <p class="paraText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, harum? Accusantium iusto voluptatibus nesciunt nemo, consectetur totam nulla error nostrum dolores incidunt eum explicabo dignissimos necessitatibus. Placeat, beatae. Esse, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, aliquam sapiente ipsum perferendis laudantium minima beatae sequi quidem pariatur placeat cumque tempore consequatur est blanditiis asperiores quisquam velit accusamus dignissimos!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus facilis fugiat eius minima mollitia! Ipsum eligendi earum sint a deserunt, in nam sit aliquam. Id nihil a non voluptas qui?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cumque saepe eligendi? Eveniet repudiandae ea neque facilis deleniti natus delectus?Eveniet repudiandae ea neque facilis deleniti natus. 
+                <br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolores ipsa quos odit eum tempora fugiat mollitia maiores natus nemo voluptatem, fugit vel accusantium iste error obcaecati labore possimus minima?</p>
+            </div>
+            <div class="col50">
+                <div class="imgBox">
+                    <img src="m.jpg">
+                    </div>
+                </div>
+            </div>
+            
+
+     
+
+</section>
+<a id="button">^</a>
+
+  
+    <script type="text/javascript"> 
+    window.addEventListener('scroll', function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+	
+	var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+    </script>
+    
+</body>
+</html>  
